@@ -1,0 +1,102 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "用户注册"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "物品审批系统"
+			}
+		},
+		{
+			"path": "pages/apply/apply",
+			"style": {
+				"navigationBarTitleText": "物品申请"
+			}
+		},
+		{
+			"path": "pages/my-applies/my-applies",
+			"style": {
+				"navigationBarTitleText": "我的申请"
+			}
+		},
+		{
+			"path": "pages/my-tasks/my-tasks",
+			"style": {
+				"navigationBarTitleText": "我的任务"
+			}
+		},
+		{
+			"path": "pages/task-detail/task-detail",
+			"style": {
+				"navigationBarTitleText": "任务详情"
+			}
+		},
+		{
+			"path": "pages/approval-history/approval-history",
+			"style": {
+				"navigationBarTitleText": "审批历史"
+			}
+		},
+		{
+			"path": "pages/department-members/department-members",
+			"style": {
+				"navigationBarTitleText": "部门成员管理"
+			}
+		},
+		{
+			"path": "pages/user-profile/user-profile",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "物品审批系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/home.png",
+				"selectedIconPath": "/static/home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/apply/apply",
+				"iconPath": "/static/apply.png",
+				"selectedIconPath": "/static/apply-active.png",
+				"text": "申请"
+			},
+			{
+				"pagePath": "pages/my-applies/my-applies",
+				"iconPath": "/static/list.png",
+				"selectedIconPath": "/static/list-active.png",
+				"text": "我的申请"
+			},
+			{
+				"pagePath": "pages/my-tasks/my-tasks",
+				"iconPath": "/static/task.png",
+				"selectedIconPath": "/static/task-active.png",
+				"text": "待办任务"
+			}
+		]
+	}
+}
